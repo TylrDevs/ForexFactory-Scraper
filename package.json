@@ -1,0 +1,26 @@
+{
+  "name": "forex-events-discord-bot",
+  "version": "1.0.0",
+  "description": "A Discord bot that scrapes and posts Forex events from ForexFactory",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "test": "node src/test-scraper.js"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "forex",
+    "scraper",
+    "events"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.3.1",
+    "node-cron": "^3.0.2",
+    "puppeteer": "^21.5.2"
+  }
+}
